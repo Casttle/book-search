@@ -1,0 +1,10 @@
+.searchBox input {
+    width: 100%;
+}
+.searchBox button {
+    float: right;
+    margin-top: 20px;
+}
+.results {
+    clear: both;
+}
