@@ -4,7 +4,15 @@
 .searchBox button {
     float: right;
     margin-top: 20px;
+    margin-bottom: 8px;
 }
 .results {
     clear: both;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+}
+.resultsCard {
+    border: 1px solid;
+    padding: 5px;
 }

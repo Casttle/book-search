@@ -1,6 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./components/header";
 import SearchBox from "./components/searchBox";
+import ResultsCard from "./components/Results";
+import Search from "./pages/Search";
 import './App.css';
 
 
@@ -12,24 +15,9 @@ class App extends Component {
           <Header></Header>
           <SearchBox></SearchBox>
           <div className="results">
-            <p>Results</p>
-            <div className="row justify-content-between">
-              <div className="col-4">
-                <p>Title of the book</p>
-              </div>
-              <div className="col-4">
-                <button type="button" className="searchButton btn btn-primary">View the Book</button>
-                <button type="button" className="searchButton btn btn-info">Save the Book</button>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col">
-                  this is the results section that will have a new box for every book
-              </div>
-            </div>
+            <h2>Results</h2>
+            <ResultsCard></ResultsCard>
           </div>
-
-
         </div>
       </div>
     );
@@ -37,3 +25,21 @@ class App extends Component {
 }
 
 export default App;
+
+
+// function App() {
+//   return (
+//     <Router>
+//       <div>
+//         {/* <Switch> */}
+//           <Route exact path="/" component={Search} />
+//           {/* <Route exact path="/books" component={Search} /> */}
+//           {/* <Route exact path="/books/:id" component={Detail} /> */}
+//           {/* <Route component={NoMatch} /> */}
+//         {/* </Switch> */}
+//       </div>
+//     </Router>
+//   );
+// }
+
+// export default App;
