@@ -1,3 +1,6 @@
+.searchBox {
+    margin-bottom: 10px;
+}
 .searchBox input {
     width: 100%;
 }
@@ -16,3 +19,24 @@
     border: 1px solid;
     padding: 5px;
 }
+
+.resultsCard  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .resultsCard a:visited {
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .resultsCard a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .resultsCard a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
